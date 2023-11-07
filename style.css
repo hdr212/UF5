@@ -1,18 +1,29 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Page Title</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
+/* * { border: 0.1em solid black; } */
+.discontinuo {
+    border: 0.1em dotted black;
+}
 
-    <div>HOLA</div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div>HOLA</div>
-    <div>Hola</div>
-    
+.fondo-rojo {
+    background-color: red;
+}
 
-</body>
-</html> 
+.fondo-negro {
+    background-color: #000;
+}
+
+.texto-blanco {
+    color: #fff;
+}
+
+.redondo {
+    border-radius: 50%;
+}
+
+.borde-verde {
+    border: 0.1em solid green;
+}
+
+.px50 {
+    width: 50px;
+    height: 50px;
+    text-align: center;
