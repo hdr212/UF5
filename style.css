@@ -1,80 +1,53 @@
-/* * { border: 0.1em solid black; } */
-.discontinuo {
-    border: 0.1em dotted black;
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #457879;
 }
 
-.fondo-rojo {
-    background-color: red;
+#main{
+    margin: 0,5em;
+    background-color: #fff;
+    padding-bottom: 1em;
+    padding: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
-.fondo-negro {
-    background-color: rgb(7, 1, 1);
+.titulo{
+    background-color: #eceadc;
+    border-radius: 1em;
+}
+.chat{
+    background-color: beige;
+    /*border: 0.2em solid black;*/
+    margin: 1em;
+    border-radius: 1em; /*hamza*/
+}
+.m-white{
+    margin-right: 60%;
+    border: 0.2em solid black;
+    border-bottom-left-radius: 1em;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    background-color: white;
 }
 
-.texto-blanco {
-    color: #fff;
+.m-green{
+    margin-left: 60%;
+    border: 0.2em solid black;
+    border-bottom-left-radius: 1em;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    background-color: greenyellow;
 }
 
-.redondo {
-    border-radius: 50%;
-}
-
-.borde-verde {
-    border: 0.1em solid green;
-}
-
-.px50 {
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    
-}
-import frases_vito
-
-
-print(frases_vito.frases["Don Vito Papá , en el colegio me llaman mafioso"])
-
-print(frases_vito.frases["Por eso María ... por eso . Las ardillas , mamá , las malditas ardillas ..."])
-
-try:
-
-    print('Waiting for finger to enroll...')
-
-    position_number = f.getEmptyId()
-
-
-    if (position_number == -1):
-
-        raise Exception('There is no empty position available!')
-
-
-    print('Remove finger...')
-
-    time.sleep(2)
-
-
-    print('Place the same finger again...')
-
-    while (f.readImage() == False):
-
-        pass
-
-
-    f.convertImage(0x01)
-
-
-    result = f.createTemplate()
-
-
-    if (result == False):
-
-        raise Exception('Could not create template!')
-
-
-    print('Template created.')
-
-
-    f.setTemplate(position_number)
-
-    print('Fingerprint enrolled successfully
+.title{
+    font-weight: bolder;
+    color: white;
+    background-color: #233c42;
+    padding: 0.5em;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
 }
